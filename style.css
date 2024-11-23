@@ -17,9 +17,9 @@ body{
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: #62825D;
     color: white;
-    background: url();
+    background-color: #62825D;
+    background-size: 200px;
 }
 
 header{
@@ -76,12 +76,15 @@ section{
     align-items: center;
     gap: 8rem;
     background-color: #62825D;
+
 }
 .home-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    margin-right: 2rem;
 }
 .home .home-content h1{
     font-weight: 700;
@@ -95,14 +98,15 @@ span{
 .home-content h3{
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 .home-img{
     border-radius: 50%;
+    width: 50%;
+    margin-left: 2rem ;
 }
 
 .home-img img{
-    margin-top: 2rem;
     position: relative;
     width: 40vw;
     border-radius: 15%;
