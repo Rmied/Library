@@ -31,6 +31,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    border-bottom: 2px solid #1F4529;
 }
 header .logo{
     padding: 0.5rem 9%;
@@ -117,3 +118,4 @@ span{
     color: #62825D;
     box-shadow: 0 0 25px #493628;
 }
+
