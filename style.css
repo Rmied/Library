@@ -37,7 +37,7 @@ header{
 }
 header .logo{
     padding: 0.5rem 9%;
-    font-size: 4rem;
+    font-size: 5rem;
     color: #493628;
     cursor: pointer;
     transition: 0.3s ease;
@@ -51,7 +51,7 @@ header nav{
 }
 
 nav a{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-left: 4rem;
     font-weight: 500;
     color: white;
@@ -107,6 +107,7 @@ span{
 }
 
 .home-img img{
+    margin-left: 1rem 9%;
     position: relative;
     width: 40vw;
     border-radius: 15%;
