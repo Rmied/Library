@@ -17,7 +17,6 @@ body{
     overflow: hidden;
     color: #ffffff;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://i.pinimg.com/control2/1200x/74/1b/42/741b4227eb5a9a790f13c6a2a8b8c782.jpg) no-repeat;
-    background-size: 100vw;
     background-size: cover;
 }
 header{
@@ -104,7 +103,7 @@ span{
     color: white;
     font-size: 2rem;
     font-weight: 600;
- 
+    
     letter-spacing: 0.8px;
     transition: 0.3 ease;
     cursor:pointer;
@@ -115,4 +114,11 @@ span{
     color: #62825D;
     box-shadow: 0 0 25px #EED3B1;
 }
+.search:active input{
+    display: block;
+}
+input{
+    display: none;
+}
+
 
